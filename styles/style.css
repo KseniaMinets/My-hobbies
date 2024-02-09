@@ -1,0 +1,22 @@
+.moodboard {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 100px 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.moodboard__item {
+  width: calc((100% - 48px) / 2);
+  max-width: 924px;
+}
+.moodboard__item:not(:nth-of-type(2n)) {
+  margin-right: 24px;
+}
+.moodboard__item:not(:nth-of-type(n+5)) {
+  margin-bottom: 24px;
+}
+.moodboard__item img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
