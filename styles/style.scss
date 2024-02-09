@@ -1,21 +1,21 @@
 .moodboard {
-    max-width: 1900px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 100px 24px 0;
+    padding: 36px 24px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
 
     &__item {
-        width: calc((100% - 2*24px)/2);
+        width: calc((100% - 3*24px)/3);
         max-width: 924px;
 
-        &:not(:nth-of-type(2n)){
+        &:not(:nth-of-type(n+7)){
             margin-right: 24px;
         }
 
-        &:not(:nth-of-type(n+5)){
+        &:not(:nth-of-type(n+4)){
             margin-bottom: 24px;
         }
 
