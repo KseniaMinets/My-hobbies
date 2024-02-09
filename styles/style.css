@@ -1,3 +1,12 @@
+.about__title {
+  font-family: Dancing Script;
+  font-weight: 600;
+  font-size: 54px;
+  text-align: center;
+  color: #b8956b;
+  margin-bottom: 10px;
+}
+
 .moodboard {
   max-width: 1000px;
   margin: 0 auto;
@@ -9,6 +18,11 @@
 .moodboard__item {
   width: calc((100% - 72px) / 3);
   max-width: 924px;
+  transition: background-color 2s, box-shadow 0.2s, transform 0.5s;
+}
+.moodboard__item:hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
 }
 .moodboard__item:not(:nth-of-type(n+7)) {
   margin-right: 24px;
